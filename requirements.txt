@@ -1,0 +1,8 @@
+streamlit
+typing
+pandas
+beautifulsoup4
+logging
+requests
+xlsxwriter
+json

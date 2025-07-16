@@ -202,3 +202,4 @@ __marimo__/
 
 test.py
 *.csv
+test_results

@@ -40,7 +40,7 @@ class PageParser:
         try:
             if self.auth and self.auth.is_authenticated():
                 return self.auth.get(url)  # Теперь mypy знает, что auth имеет метод get()
-            return requests.get(url, timeout=10)
+            return requests.get(url)
         except (requests.RequestException, ValueError):
             return None
 

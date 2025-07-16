@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "email": "info@stankoopt.ru",
+    "pass": "cnc1.ru"
+  },
+  "settings": {
+    "link_selector": "a.dark_link.js-notice-block__title",
+    "selectors": {
+        "Заголовок": "h1#pagetitle",
+        "Артикул": "span.code",
+        "Наличие": "span.value.font_sxs",
+        "Цена розница": "div.price.font-bold.font_mxs span.price_value",
+        "Цена опт": "div.price_group.min span.price_value"
+    }
+  }
+}
